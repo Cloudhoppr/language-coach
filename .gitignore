@@ -24,6 +24,8 @@
 .DS_Store
 *.pem
 opencode.json
+progress.txt
+*.bat
 
 # debug
 npm-debug.log*
