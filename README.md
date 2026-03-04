@@ -2,7 +2,7 @@
 
 Most language learning apps teach you to read a language. A select few teach you to write it. But virtually none teach you the one skill that actually matters when you're standing in a market in Mexico City trying to ask where the bathroom is: speaking it.
 The dirty secret of mainstream language apps is that they're built around text. Flashcards, fill-in-the-blank, grammar drills — all optimized for the keyboard, not the vocal cords. Real conversational fluency demands something different: the ability to hear authentic pronunciation, to process and respond in real time, to practice the rhythm and cadence of a living language. Voice input isn't a feature — it's the whole ballgame. And it's been absent from nearly every language learning app on the market.
-We built HablaConmigo to fix that.
+We built Hablo to fix that.
 
 
 ## What It Does
@@ -26,7 +26,7 @@ From there, the pipeline is continuous and real-time:
 
 ## Architecture Overview
 
-HablaConmigo is a unified Next.js 15 App Router application — no separate backend, no microservices. All server-side logic lives in Next.js Route Handlers, which act as a secure API layer between the browser and external services.
+Hablo is a unified Next.js 15 App Router application — no separate backend, no microservices. All server-side logic lives in Next.js Route Handlers, which act as a secure API layer between the browser and external services.
 - Frontend: React with TypeScript, Tailwind CSS v4 (CSS @theme-based, no config file), Zustand for state management, Zod for runtime validation
 - Voice AI: ElevenLabs Conversational AI (WebSocket, real-time STT + TTS + agent pipeline)
 - LLM: Google Gemini 2.5 Flash for the coaching intelligence — accessed via ElevenLabs' agent configuration for voice mode, and directly via @google/genai for text mode and auto-generated session titles
