@@ -7,7 +7,7 @@ We built HablaConmigo to fix that.
 
 ## What It Does
 
-HablaConmigo is a voice-first AI language coach for English speakers learning Mexican Spanish. Not Castilian Spanish. Not "generic Latin American" Spanish. Mexican Spanish — with the vocabulary, slang, and cultural nuances you'd actually encounter.
+Hablo is a voice-first AI language coach for English speakers learning Mexican Spanish. Not Castilian Spanish. Not "generic Latin American" Spanish. Mexican Spanish — with the vocabulary, slang, and cultural nuances you'd actually encounter.
 The experience is simple: you click a microphone, and you're in a conversation. The AI coach greets you, gauges your proficiency in the first few exchanges, and immediately personalizes the session to your level. Beginners get English-heavy guidance with Spanish vocabulary woven in. Intermediate learners get a code-switching mix that mirrors real bilingual conversations. Advanced users get the full immersion treatment — the coach speaks primarily in Mexican Spanish and only dips into English for nuanced grammar corrections.
 You can speak back, or type if you prefer. Either way, the coach responds intelligently, corrects your mistakes conversationally (not clinically), and keeps the dialogue flowing naturally. A live dual-channel waveform visualizer pulses with both your voice and the coach's — a constant visual reminder that this is a real, live exchange. Every session is persisted, browsable, and replayable in full transcript.
 
